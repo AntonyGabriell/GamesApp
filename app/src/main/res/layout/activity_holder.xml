@@ -8,7 +8,7 @@
     <androidx.cardview.widget.CardView
         android:layout_width="399dp"
         android:layout_height="338dp"
-        app:cardBackgroundColor="#ECE4E4"
+        app:cardBackgroundColor="#A59494"
         app:cardCornerRadius="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -23,7 +23,7 @@
                 android:layout_width="353dp"
                 android:layout_height="54dp"
                 android:layout_marginTop="8dp"
-                android:text="É uma franquia de mídia que se originou com uma série de videogames de ação e aventura criada pela empresa britânica de jogos Core Design."
+                android:text="jogo de corrida'"
                 android:textColor="#000000"
                 app:layout_constraintEnd_toEndOf="@+id/cardView"
                 app:layout_constraintStart_toStartOf="@+id/cardView"
@@ -34,7 +34,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
-                android:text="Tomb Raider"
+                android:text="Joy Raider"
                 android:textColor="#494343"
                 android:textSize="20sp"
                 app:layout_constraintStart_toStartOf="@+id/cardView"
@@ -45,7 +45,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
-                android:text="Core Design"
+                android:text="..."
                 android:textColor="#000000"
                 app:layout_constraintStart_toStartOf="@+id/cardView"
                 app:layout_constraintTop_toBottomOf="@+id/cardView" />
@@ -65,7 +65,7 @@
                     android:id="@+id/idImagem"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    app:srcCompat="@drawable/tomb" />
+                    app:srcCompat="@drawable/joyrider" />
             </androidx.cardview.widget.CardView>
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.cardview.widget.CardView>
